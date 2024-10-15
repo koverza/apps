@@ -1,0 +1,16 @@
+{
+    "extends": "@react-native/typescript-config/tsconfig.json",
+    "compilerOptions": {
+        "target": "esnext",
+        "baseUrl": ".",
+        "paths": {
+            "@assets/*": ["src/assets/*"],
+            "@components/*": ["src/components/*"],
+            "@interfaces/*": ["src/interfaces/*"],
+            "@navigation/*": ["src/navigation/*"],
+            "@screens/*": ["src/screens/*"],
+            "@store/*": ["src/store"],
+            "@theme/*": ["src/theme/*"]
+        }
+    }
+}
